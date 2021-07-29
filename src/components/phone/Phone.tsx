@@ -41,6 +41,8 @@ class Phone extends React.Component<Props> {
   }
 
   constructor(props: any) {
+    console.log('REMAC Constructor');
+    console.log('icon: ',endCallIcon);
     super(props)
     this.attendedProcess = this.attendedProcess.bind(this);
   }
