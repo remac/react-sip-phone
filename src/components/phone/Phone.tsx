@@ -14,9 +14,9 @@ import toneManager from '../../util/ToneManager'
 import { statusMask, getDurationDisplay } from '../../util/sessions'
 import { PhoneConfig } from '../../models'
 
-const endCallIcon = require('./assets/call_end-24px.svg')
-const dialpadIcon = require('./assets/dialpad-24px.svg')
-const transferIcon = require('./assets/arrow_forward-24px.svg')
+const endCallIcon = require('./assets/call_end-24px.svg').default
+const dialpadIcon = require('./assets/dialpad-24px.svg').default
+const transferIcon = require('./assets/arrow_forward-24px.svg').default
 
 interface Props {
   session: Session
