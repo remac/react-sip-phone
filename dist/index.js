@@ -1243,9 +1243,11 @@ var actions = {
 };
 var SipWrapper$1 = reactRedux.connect(mapStateToProps, actions)(SipWrapper);
 
-var styles$1 = {"container":"_Adysl","incoming":"_14y58","dialpad":"_24i7u","closed":"_3nIZK","statusLarge":"_3G14Z","dialpadButton":"_38DZj","dialpadButtonLetters":"_N-jqm","dialpadRow":"_19SxG","actionButton":"_1hhhF","on":"_3ZwLv","endCallButton":"_3z8u3","startCallButton":"_3UW76","actionsContainer":"_2kDeL","transferMenu":"_1yjIy","transferInput":"_2tho8","transferButtons":"_Rc_m0","userString":"_gelBY","userStringLarge":"_rgh4W","settingsButton":"_3TfJl","settingsMenu":"_6JtnT","dropdowns":"_2FMhO","dropdownRow":"_2NuIJ","dropdownIcon":"_1K5Gw"};
+var styles$1 = {"container":"_Adysl","incoming":"_14y58","dialpad":"_24i7u","closed":"_3nIZK","statusLarge":"_3G14Z","dialpadButton":"_38DZj","dialpadButtonLetters":"_N-jqm","dialpadRow":"_19SxG","actionButton":"_1hhhF","on":"_3ZwLv","endCallButton":"_3z8u3","startCallButton":"_3UW76","actionsContainer":"_2kDeL","transferMenu":"_1yjIy","transferInput":"_2tho8","transferButtons":"_Rc_m0","userString":"_gelBY","userStringLarge":"_rgh4W","settingsButton":"_3TfJl","settingsMenu":"_6JtnT","dropdowns":"_2FMhO","dropdownRow":"_2NuIJ","dropdown
+                ":"_1K5Gw"};
 
-var settingsIcon = require('./assets/settings-24px.svg');
+var settingsIcon = require('./assets/settings-24px.svg').default;
+console.log('settingIcon set to default');
 
 var micIcon = require('./assets/mic-24px.svg');
 
